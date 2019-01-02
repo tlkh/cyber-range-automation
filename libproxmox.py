@@ -16,6 +16,8 @@ class Proxmox(object):
                 bash_command.split(), stdout=out, stderr=err)
             process.wait()
             output, error = process.communicate()
+            print("[INFO  ] Output:", str(output))
+            print("[ERROR ] Error:", str(error))
         return output
 
     def deploy_vm(self, row):
