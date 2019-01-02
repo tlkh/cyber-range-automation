@@ -82,7 +82,7 @@ class Proxmox(object):
         username = display_name.lower().replace(" ", "").replace(",", "")
 
         h = hashlib.new('ripemd160')
-        h.update(bytes(display_name+self.salt), "uft8")
+        h.update(bytes(display_name+self.salt), encoding="utf8")
         password = str(h.hexdigest())
 
         commands = []
