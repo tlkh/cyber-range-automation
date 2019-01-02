@@ -1,6 +1,6 @@
 from libproxmox import Proxmox
 
-proxmox = new Proxmox()
+proxmox = new Proxmox(target_node="svr-corpnet03")
 
 CSV_DIR = "./deployment.csv"
 print("[IFO  ] Deploying from:", CSV_DIR)

@@ -5,8 +5,9 @@ import csv
 
 class Proxmox(object):
 
-    def __init__(self, salt="nosalt"):
+    def __init__(self, target_node=None, salt="nosalt"):
         self.salt = salt
+        self.target_node = target_node
 
     def run_cmd(self, bash_command):
         print("[INFO  ] Running:", bash_command)
@@ -61,6 +62,8 @@ class Proxmox(object):
             target_name = str(template_id)+"_clone"
 
         command = "qm clone "+template_id+" "+target_id+" --name "+target_name
+        if self.target_node is not None:
+            command = command + " --target " + self.target_node
         self.run_cmd(command)
 
     def set_ci(self, target_vm, display_name, ip_addr, windows_vm=False):
