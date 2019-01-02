@@ -1,6 +1,6 @@
 import hashlib
 import subprocess
-
+import time
 
 class Proxmox(object):
 
@@ -34,6 +34,9 @@ class Proxmox(object):
             windows_vm = False
 
         self.clone_vm(template_id, target_id, target_name)
+
+        time.sleep(5)
+
         self.set_ci(target_id, user_displayname, ci_ip_addr, windows_vm=windows_vm)
 
         print("[INFO  ] Deployed:", target_id)

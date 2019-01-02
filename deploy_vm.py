@@ -19,6 +19,7 @@ with open(CSV_DIR, "r") as file:
         else:
             print("[DEBUG ]:", row)
             deployed.append(proxmox.deploy_vm(row))
+        time.sleep(1)
         row_count += 1
 
 print("[INFO  ] VMs deployed:", deployed)
