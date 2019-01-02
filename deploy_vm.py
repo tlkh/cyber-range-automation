@@ -59,8 +59,9 @@ with open(CSV_DIR, "r") as file:
             else:
                 windows_vm = False
                 
-            proxmox.set_ci(target_id, user_displayname,ci_ip_addr, windows_vm=windows_vm)
-            deployed.append(target_id)
+            deployment = proxmox.set_ci(target_id, user_displayname,ci_ip_addr, windows_vm=windows_vm)
+            deployed.append(deployment)
+            
         time.sleep(1)
         row_count += 1
 

@@ -65,7 +65,7 @@ class Proxmox(object):
 
         h = hashlib.new('ripemd160')
         h.update(bytes(display_name+self.salt, encoding="utf8"))
-        password = str(h.hexdigest())
+        password = str(h.hexdigest())[:10]
 
         commands = []
         commands.append("qm set "+target_vm+" --citype "+citype)
@@ -76,3 +76,5 @@ class Proxmox(object):
         for command in commands:
             self.run_cmd(command)
             time.sleep(1)
+
+        return [target_vm, username, password]
