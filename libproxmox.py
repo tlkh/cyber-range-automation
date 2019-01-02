@@ -1,6 +1,5 @@
 import hashlib
 import subprocess
-import csv
 
 
 class Proxmox(object):
@@ -83,7 +82,7 @@ class Proxmox(object):
         username = display_name.lower().replace(" ", "").replace(",", "")
 
         h = hashlib.new('ripemd160')
-        h.update(bytes(display_name+self.salt))
+        h.update(bytes(display_name+self.salt), "uft8")
         password = str(h.hexdigest())
 
         commands = []

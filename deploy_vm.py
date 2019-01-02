@@ -1,21 +1,23 @@
+import csv
+
 from libproxmox import Proxmox
 
-proxmox = new Proxmox(target_node="svr-corpnet03")
+proxmox = Proxmox(target_node="svr-corpnet03")
 
 CSV_DIR = "./deployment.csv"
-print("[IFO  ] Deploying from:", CSV_DIR)
+print("[INFO  ] Deploying from:", CSV_DIR)
 
 deployed = []
 
-with open(CSV_DIR, "rb") as file:
+with open(CSV_DIR, "r") as file:
     csvfile = csv.reader(file)
-    for row in csvfile[1:]:
+    for row in csvfile:
         print("[DEBUG ]:", row)
         deployed.append(proxmox.deploy_vm(row))
 
-print("[IFO  ] VMs deployed:", deployed)
+print("[INFO  ] VMs deployed:", deployed)
 
 for vm_id in deployed:
     proxmox.start_vm(vm_id)
 
-print("[IFO  ] VMs started:", deployed)
+print("[INFO  ] VMs started:", deployed)
