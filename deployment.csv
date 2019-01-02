@@ -1,5 +1,22 @@
-template_id,vm_id,user_displayname,ci_ip_addr,vm_type,meta_office,meta_appointment
-9001,2020,"Brown, Mia",1.2.210.2,ubuntu18-Static-NonAD,Admin Offices,Accountant I
-9004,2021,"LaRotonda, William  ",1.2.210.3,windows10-Static-NonAD,Admin Offices,Accountant I
-9004,2022,"Steans, Tyrone  ",1.2.210.4,windows10-Static-NonAD,Admin Offices,Accountant I
-9001,2023,"Howard, Estelle",1.2.210.5,ubuntu18-Static-NonAD,Admin Offices,Administrative Assistant
+vm_id,user_displayname,ci_ip_addr,vm_os,vm_type,meta_dept,meta_pos
+2020,"Brown, Mia",1.2.210.2,centos7,Static-NonAD,Admin Offices,Accountant I
+2021,"LaRotonda, William  ",1.2.210.3,centos7,Static-NonAD,Admin Offices,Accountant I
+2022,"Steans, Tyrone  ",1.2.210.4,centos7,Static-NonAD,Admin Offices,Accountant I
+2023,"Howard, Estelle",1.2.210.5,centos7,Static-NonAD,Admin Offices,Administrative Assistant
+2024,"Singh, Nan ",1.2.210.6,centos7,Static-NonAD,Admin Offices,Administrative Assistant
+2025,"Smith, Leigh Ann",1.2.210.7,centos7,Static-NonAD,Admin Offices,Administrative Assistant
+2026,"LeBlanc, Brandon  R",1.2.210.8,centos7,Static-NonAD,Admin Offices,Shared Services Manager
+2027,"Quinn, Sean",1.2.210.9,centos7,Static-NonAD,Admin Offices,Shared Services Manager
+2028,"Boutwell, Bonalyn",1.2.210.10,centos7,Static-NonAD,Admin Offices,Sr. Accountant
+2029,"Foster-Baker, Amy",1.2.210.11,centos7,Static-NonAD,Admin Offices,Sr. Accountant
+2030,"King, Janet",1.2.210.12,centos7,Static-NonAD,Executive Office,President & CEO
+2031,"Zamora, Jennifer",1.2.210.13,centos7,Static-NonAD,IT/IS,CIO
+2032,"Becker, Renee",1.2.210.14,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2033,"Goble, Taisha",1.2.210.15,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2034,"Hernandez, Daniff",1.2.210.16,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2035,"Horton, Jayne",1.2.210.17,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2036,"Johnson, Noelle ",1.2.210.18,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2037,"Murray, Thomas",1.2.210.19,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2038,"Pearson, Randall",1.2.210.20,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2039,"Petrowsky, Thelma",1.2.210.21,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2040,"Roby, Lori ",1.2.210.22,ubuntu18,Static-NonAD,IT/IS,Database Administrator

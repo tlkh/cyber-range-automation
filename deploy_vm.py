@@ -4,40 +4,38 @@ import pickle
 
 from libproxmox import Proxmox
 
-proxmox = Proxmox()
+pve = Proxmox()
 
 CSV_DIR = "./deployment.csv"
 print("[INFO  ] Deploying from:", CSV_DIR)
+print("[MESSAG] Please remember to save this output!!")
 
-row_count = 0
+templates = {
+    "centos7": "9004",
+    "ubuntu18": "9001"
+}
 
 print("[INFO  ] Begining clone process")
 
 with open(CSV_DIR, "r") as file:
     csvfile = csv.reader(file)
+    next(csvfile, None)  # skip the headers
     for row in csvfile:
-        if row_count == 0:
-            pass
-        else:
-            print("[DEBUG ]:", row)
-            template_id, target_id, user_displayname = row[0], row[1], row[2]
-            ci_ip_addr, vm_type = row[3], row[4]
-            vm_type = str(vm_type)
+        print("[DEBUG ]:", row)
 
-            target_name = str(user_displayname).replace(" ", "").split(",")
-            target_name = target_name[0] + target_name[1].upper()
-            target_name = target_name + "-" + vm_type
+        vm_id, user_displayname = row[0], row[1]
+        ci_ip_addr, vm_os, vm_type = row[2], row[3], row[4]
 
-            proxmox.clone_vm(template_id, target_id, target_name)
+        target_name = str(user_displayname).replace(" ", "").split(",")
+        target_name = target_name[0] + target_name[1].upper()
+        target_name = target_name+"-"+vm_os+"-"+vm_type
 
-            time.sleep(1)
+        template_id = templates[vm_os]
 
-            print("[INFO  ] Cloned:", target_id)
+        pve.clone_vm(template_id, vm_id, target_name)
 
+        print("[INFO  ] Cloned:", vm_id)
         time.sleep(1)
-        row_count += 1
-
-row_count = 0
 
 print("[INFO  ] Begining cloud-init process")
 
@@ -45,29 +43,29 @@ deployed = []
 
 with open(CSV_DIR, "r") as file:
     csvfile = csv.reader(file)
+    next(csvfile, None)  # skip the headers
     for row in csvfile:
-        if row_count == 0:
-            pass
-        else:
-            print("[DEBUG ]:", row)
-            template_id, target_id, user_displayname = row[0], row[1], row[2]
-            ci_ip_addr, vm_type = row[3], row[4]
-            vm_type = str(vm_type)
+        print("[DEBUG ]:", row)
+        
+        vm_id, user_displayname = row[0], row[1]
+        ci_ip_addr, vm_os, vm_type = row[2], row[3], row[4]
 
-            if "windows" in vm_type.lower():
-                windows_vm = True
-            else:
-                windows_vm = False
-                
-            deployment = proxmox.set_ci(target_id, user_displayname,ci_ip_addr, windows_vm=windows_vm)
-            deployed.append(deployment)
+        if "windows" in vm_os.lower():
+            windows_vm = True
+        else:
+            windows_vm = False
+            
+        deployment = pve.set_ci(vm_id, user_displayname, ci_ip_addr, windows_vm=windows_vm)
+        deployed.append(deployment)
             
         time.sleep(1)
-        row_count += 1
 
-print("[INFO  ] VMs deployed:", deployed)
+print("[INFO  ] VMs deployed:", len(deployed))
 
-pickle.dump(deployed, open(str(time.time())+"_deploy.pickle", "wb"))
+for deployment in deployed:
+    print(deployment)
+
+print("[MESSAG] Please remember to save this output!!")
 
 """
 print("[INFO  ] Starting all VMs deployed")

@@ -16,19 +16,14 @@ row_count = 0
 with open(CSV_DIR, "r") as file:
     csvfile = csv.reader(file)
     for row in csvfile:
-        if row_count == 0:
-            pass
-        else:
-            print("[DEBUG ]:", row)
-            template_id, target_id, user_displayname = row[0], row[1], row[2]
-            ci_ip_addr, vm_type = row[3], row[4]
-            vm_type = str(vm_type)
+        print("[DEBUG ]:", row)
+        vm_id = row[0]
 
-            proxmox.stop_vm(target_id)
-            time.sleep(1)
-            proxmox.del_vm(target_id)
+        proxmox.stop_vm(vm_id)
+        time.sleep(1)
+        proxmox.del_vm(vm_id)
 
-            print("[INFO  ] Cloned:", target_id)
+        print("[INFO  ] Deleted:", vm_id)
 
         time.sleep(1)
         row_count += 1

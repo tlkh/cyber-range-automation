@@ -1,101 +1,311 @@
-﻿template_id,vm_id,user_displayname,ci_ip_addr,vm_type,meta_office,meta_appointment
-9001,2020,"Brown, Mia",1.2.210.2,ubuntu18-Static-NonAD,Admin Offices,Accountant I
-9001,2021,"LaRotonda, William  ",1.2.210.3,ubuntu18-Static-NonAD,Admin Offices,Accountant I
-9001,2022,"Steans, Tyrone  ",1.2.210.4,ubuntu18-Static-NonAD,Admin Offices,Accountant I
-9001,2023,"Howard, Estelle",1.2.210.5,ubuntu18-Static-NonAD,Admin Offices,Administrative Assistant
-9001,2024,"Singh, Nan ",1.2.210.6,ubuntu18-Static-NonAD,Admin Offices,Administrative Assistant
-9001,2025,"Smith, Leigh Ann",1.2.210.7,ubuntu18-Static-NonAD,Admin Offices,Administrative Assistant
-9001,2026,"LeBlanc, Brandon  R",1.2.210.8,ubuntu18-Static-NonAD,Admin Offices,Shared Services Manager
-9001,2027,"Quinn, Sean",1.2.210.9,ubuntu18-Static-NonAD,Admin Offices,Shared Services Manager
-9001,2028,"Boutwell, Bonalyn",1.2.210.10,ubuntu18-Static-NonAD,Admin Offices,Sr. Accountant
-9001,2029,"Foster-Baker, Amy",1.2.210.11,ubuntu18-Static-NonAD,Admin Offices,Sr. Accountant
-9001,2030,"King, Janet",1.2.210.12,ubuntu18-Static-NonAD,Executive Office,President & CEO
-9001,2031,"Zamora, Jennifer",1.2.210.13,ubuntu18-Static-NonAD,IT/IS,CIO
-9001,2032,"Becker, Renee",1.2.210.14,ubuntu18-Static-NonAD,IT/IS,Database Administrator
-9001,2033,"Goble, Taisha",1.2.210.15,ubuntu18-Static-NonAD,IT/IS,Database Administrator
-9001,2034,"Hernandez, Daniff",1.2.210.16,ubuntu18-Static-NonAD,IT/IS,Database Administrator
-9001,2035,"Horton, Jayne",1.2.210.17,ubuntu18-Static-NonAD,IT/IS,Database Administrator
-9001,2036,"Johnson, Noelle ",1.2.210.18,ubuntu18-Static-NonAD,IT/IS,Database Administrator
-9001,2037,"Murray, Thomas",1.2.210.19,ubuntu18-Static-NonAD,IT/IS,Database Administrator
-9001,2038,"Pearson, Randall",1.2.210.20,ubuntu18-Static-NonAD,IT/IS,Database Administrator
-9001,2039,"Petrowsky, Thelma",1.2.210.21,ubuntu18-Static-NonAD,IT/IS,Database Administrator
-9001,2040,"Roby, Lori ",1.2.210.22,ubuntu18-Static-NonAD,IT/IS,Database Administrator
-9001,2041,"Rogers, Ivan",1.2.210.23,ubuntu18-Static-NonAD,IT/IS,Database Administrator
-9001,2042,"Salter, Jason",1.2.210.24,ubuntu18-Static-NonAD,IT/IS,Database Administrator
-9001,2043,"Simard, Kramer",1.2.210.25,ubuntu18-Static-NonAD,IT/IS,Database Administrator
-9001,2044,"Zhou, Julia",1.2.210.26,ubuntu18-Static-NonAD,IT/IS,Database Administrator
-9001,2045,"Foss, Jason",1.2.210.27,ubuntu18-Static-NonAD,IT/IS,IT Director
-9001,2046,"Roup,Simon",1.2.210.28,ubuntu18-Static-NonAD,IT/IS,IT Manager - DB
-9001,2047,"Ruiz, Ricardo",1.2.210.29,ubuntu18-Static-NonAD,IT/IS,IT Manager - DB
-9001,2048,"Monroe, Peter",1.2.210.30,ubuntu18-Static-NonAD,IT/IS,IT Manager - Infra
-9001,2049,"Dougall, Eric",1.2.210.31,ubuntu18-Static-NonAD,IT/IS,IT Manager - Support
-9001,2050,"Clayton, Rick",1.2.210.32,ubuntu18-Static-NonAD,IT/IS,IT Support
-9001,2051,"Galia, Lisa",1.2.210.33,ubuntu18-Static-NonAD,IT/IS,IT Support
-9001,2052,"Lindsay, Leonara ",1.2.210.34,ubuntu18-Static-NonAD,IT/IS,IT Support
-9001,2053,"Soto, Julia ",1.2.210.35,ubuntu18-Static-NonAD,IT/IS,IT Support
-9001,2054,"Bacong, Alejandro ",1.2.210.36,ubuntu18-Static-NonAD,IT/IS,Network Engineer
-9001,2055,"Cisco, Anthony",1.2.210.37,ubuntu18-Static-NonAD,IT/IS,Network Engineer
-9001,2056,"Dolan, Linda",1.2.210.38,ubuntu18-Static-NonAD,IT/IS,Network Engineer
-9001,2057,"Gonzalez, Maria",1.2.210.39,ubuntu18-Static-NonAD,IT/IS,Network Engineer
-9001,2058,"Merlos, Carlos",1.2.210.40,ubuntu18-Static-NonAD,IT/IS,Network Engineer
-9001,2059,"Morway, Tanya",1.2.210.41,ubuntu18-Static-NonAD,IT/IS,Network Engineer
-9001,2060,"Shepard, Anita ",1.2.210.42,ubuntu18-Static-NonAD,IT/IS,Network Engineer
-9001,2061,"Tredinnick, Neville ",1.2.210.43,ubuntu18-Static-NonAD,IT/IS,Network Engineer
-9001,2062,"Turpin, Jumil",1.2.210.44,ubuntu18-Static-NonAD,IT/IS,Network Engineer
-9001,2063,"Ait Sidi, Karthikeyan   ",1.2.210.45,ubuntu18-Static-NonAD,IT/IS,Sr. DBA
-9001,2064,"Carr, Claudia  N",1.2.210.46,ubuntu18-Static-NonAD,IT/IS,Sr. DBA
-9001,2065,"Favis, Donald  ",1.2.210.47,ubuntu18-Static-NonAD,IT/IS,Sr. DBA
-9001,2066,"Roehrich, Bianca",1.2.210.48,ubuntu18-Static-NonAD,IT/IS,Sr. DBA
-9001,2067,"Daniele, Ann  ",1.2.210.49,ubuntu18-Static-NonAD,IT/IS,Sr. Network Engineer
-9001,2068,"Lajiri,  Jyoti",1.2.210.50,ubuntu18-Static-NonAD,IT/IS,Sr. Network Engineer
-9001,2069,"Semizoglou, Jeremiah  ",1.2.210.51,ubuntu18-Static-NonAD,IT/IS,Sr. Network Engineer
-9001,2070,"South, Joe",1.2.210.52,ubuntu18-Static-NonAD,IT/IS,Sr. Network Engineer
-9001,2071,"Warfield, Sarah",1.2.210.53,ubuntu18-Static-NonAD,IT/IS,Sr. Network Engineer
-9001,2072,"Bramante, Elisa",1.2.210.54,ubuntu18-Static-NonAD,Production       ,Director of Operations
-9001,2073,"Albert, Michael  ",1.2.210.55,ubuntu18-Static-NonAD,Production       ,Production Manager
-9001,2074,"Bozzi, Charles",1.2.210.56,ubuntu18-Static-NonAD,Production       ,Production Manager
-9001,2075,"Butler, Webster  L",1.2.210.57,ubuntu18-Static-NonAD,Production       ,Production Manager
-9001,2076,"Dunn, Amy  ",1.2.210.58,ubuntu18-Static-NonAD,Production       ,Production Manager
-9001,2077,"Gray, Elijiah  ",1.2.210.59,ubuntu18-Static-NonAD,Production       ,Production Manager
-9001,2078,"Hogland, Jonathan ",1.2.210.60,ubuntu18-Static-NonAD,Production       ,Production Manager
-9001,2079,"Immediato, Walter",1.2.210.61,ubuntu18-Static-NonAD,Production       ,Production Manager
-9001,2080,"Liebig, Ketsia",1.2.210.62,ubuntu18-Static-NonAD,Production       ,Production Manager
-9001,2081,"Miller, Brannon",1.2.210.63,ubuntu18-Static-NonAD,Production       ,Production Manager
-9001,2082,"Peterson, Ebonee  ",1.2.210.64,ubuntu18-Static-NonAD,Production       ,Production Manager
-9001,2083,"Spirea, Kelley",1.2.210.65,ubuntu18-Static-NonAD,Production       ,Production Manager
-9001,2084,"Stanley, David ",1.2.210.66,ubuntu18-Static-NonAD,Production       ,Production Manager
-9001,2085,"Sullivan, Kissy ",1.2.210.67,ubuntu18-Static-NonAD,Production       ,Production Manager
-9001,2086,"Wallace, Courtney  E",1.2.210.68,ubuntu18-Static-NonAD,Production       ,Production Manager
-9001,2087,"Adinolfi, Wilson  K",1.2.210.69,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2088,"Alagbe,Trina",1.2.210.70,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2089,"Anderson, Carol ",1.2.210.71,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2090,"Anderson, Linda  ",1.2.210.72,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2091,"Athwal, Sam",1.2.210.73,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2092,"Bachiochi, Linda",1.2.210.74,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2093,"Baczenski, Rachael  ",1.2.210.75,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2094,"Barbara, Thomas",1.2.210.76,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2095,"Barone, Francesco  A",1.2.210.77,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2096,"Barton, Nader",1.2.210.78,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2097,"Beatrice, Courtney ",1.2.210.79,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2098,"Becker, Scott",1.2.210.80,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2099,"Bernstein, Sean",1.2.210.81,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2100,"Biden, Lowan  M",1.2.210.82,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2101,"Billis, Helen",1.2.210.83,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2102,"Brill, Donna",1.2.210.84,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2103,"Bugali, Josephine ",1.2.210.85,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2104,"Carey, Michael  ",1.2.210.86,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2105,"Chace, Beatrice ",1.2.210.87,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2106,"Chan, Lin",1.2.210.88,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2107,"Chang, Donovan  E",1.2.210.89,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2108,"Chivukula, Enola",1.2.210.90,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2109,"Cierpiszewski, Caroline  ",1.2.210.91,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2110,"Clukey, Elijian",1.2.210.92,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2111,"Cockel, James",1.2.210.93,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2112,"Cole, Spencer",1.2.210.94,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2113,"Cornett, Lisa ",1.2.210.95,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2114,"Crimmings,   Jean",1.2.210.96,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2115,"Darson, Jene'ya ",1.2.210.97,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2116,"DeGweck,  James",1.2.210.98,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2117,"Desimone, Carl ",1.2.210.99,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2118,"Dickinson, Geoff ",1.2.210.100,ubuntu18-Static-NonAD,Production       ,Production Technician I
-9001,2119,"DiNocco, Lily ",1.2.210.101,ubuntu18-Static-NonAD,Production       ,Production Technician I
+﻿vm_id,user_displayname,ci_ip_addr,vm_os,vm_type,meta_dept,meta_pos
+2020,"Brown, Mia",1.2.210.2,centos7,Static-NonAD,Admin Offices,Accountant I
+2021,"LaRotonda, William  ",1.2.210.3,centos7,Static-NonAD,Admin Offices,Accountant I
+2022,"Steans, Tyrone  ",1.2.210.4,centos7,Static-NonAD,Admin Offices,Accountant I
+2023,"Howard, Estelle",1.2.210.5,centos7,Static-NonAD,Admin Offices,Administrative Assistant
+2024,"Singh, Nan ",1.2.210.6,centos7,Static-NonAD,Admin Offices,Administrative Assistant
+2025,"Smith, Leigh Ann",1.2.210.7,centos7,Static-NonAD,Admin Offices,Administrative Assistant
+2026,"LeBlanc, Brandon  R",1.2.210.8,centos7,Static-NonAD,Admin Offices,Shared Services Manager
+2027,"Quinn, Sean",1.2.210.9,centos7,Static-NonAD,Admin Offices,Shared Services Manager
+2028,"Boutwell, Bonalyn",1.2.210.10,centos7,Static-NonAD,Admin Offices,Sr. Accountant
+2029,"Foster-Baker, Amy",1.2.210.11,centos7,Static-NonAD,Admin Offices,Sr. Accountant
+2030,"King, Janet",1.2.210.12,centos7,Static-NonAD,Executive Office,President & CEO
+2031,"Zamora, Jennifer",1.2.210.13,centos7,Static-NonAD,IT/IS,CIO
+2032,"Becker, Renee",1.2.210.14,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2033,"Goble, Taisha",1.2.210.15,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2034,"Hernandez, Daniff",1.2.210.16,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2035,"Horton, Jayne",1.2.210.17,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2036,"Johnson, Noelle ",1.2.210.18,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2037,"Murray, Thomas",1.2.210.19,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2038,"Pearson, Randall",1.2.210.20,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2039,"Petrowsky, Thelma",1.2.210.21,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2040,"Roby, Lori ",1.2.210.22,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2041,"Rogers, Ivan",1.2.210.23,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2042,"Salter, Jason",1.2.210.24,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2043,"Simard, Kramer",1.2.210.25,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2044,"Zhou, Julia",1.2.210.26,ubuntu18,Static-NonAD,IT/IS,Database Administrator
+2045,"Foss, Jason",1.2.210.27,centos7,Static-NonAD,IT/IS,IT Director
+2046,"Roup,Simon",1.2.210.28,centos7,Static-NonAD,IT/IS,IT Manager - DB
+2047,"Ruiz, Ricardo",1.2.210.29,centos7,Static-NonAD,IT/IS,IT Manager - DB
+2048,"Monroe, Peter",1.2.210.30,centos7,Static-NonAD,IT/IS,IT Manager - Infra
+2049,"Dougall, Eric",1.2.210.31,centos7,Static-NonAD,IT/IS,IT Manager - Support
+2050,"Clayton, Rick",1.2.210.32,ubuntu18,Static-NonAD,IT/IS,IT Support
+2051,"Galia, Lisa",1.2.210.33,ubuntu18,Static-NonAD,IT/IS,IT Support
+2052,"Lindsay, Leonara ",1.2.210.34,ubuntu18,Static-NonAD,IT/IS,IT Support
+2053,"Soto, Julia ",1.2.210.35,ubuntu18,Static-NonAD,IT/IS,IT Support
+2054,"Bacong, Alejandro ",1.2.210.36,ubuntu18,Static-NonAD,IT/IS,Network Engineer
+2055,"Cisco, Anthony",1.2.210.37,ubuntu18,Static-NonAD,IT/IS,Network Engineer
+2056,"Dolan, Linda",1.2.210.38,ubuntu18,Static-NonAD,IT/IS,Network Engineer
+2057,"Gonzalez, Maria",1.2.210.39,ubuntu18,Static-NonAD,IT/IS,Network Engineer
+2058,"Merlos, Carlos",1.2.210.40,ubuntu18,Static-NonAD,IT/IS,Network Engineer
+2059,"Morway, Tanya",1.2.210.41,ubuntu18,Static-NonAD,IT/IS,Network Engineer
+2060,"Shepard, Anita ",1.2.210.42,ubuntu18,Static-NonAD,IT/IS,Network Engineer
+2061,"Tredinnick, Neville ",1.2.210.43,ubuntu18,Static-NonAD,IT/IS,Network Engineer
+2062,"Turpin, Jumil",1.2.210.44,ubuntu18,Static-NonAD,IT/IS,Network Engineer
+2063,"Ait Sidi, Karthikeyan   ",1.2.210.45,ubuntu18,Static-NonAD,IT/IS,Sr. DBA
+2064,"Carr, Claudia  N",1.2.210.46,ubuntu18,Static-NonAD,IT/IS,Sr. DBA
+2065,"Favis, Donald  ",1.2.210.47,ubuntu18,Static-NonAD,IT/IS,Sr. DBA
+2066,"Roehrich, Bianca",1.2.210.48,ubuntu18,Static-NonAD,IT/IS,Sr. DBA
+2067,"Daniele, Ann  ",1.2.210.49,ubuntu18,Static-NonAD,IT/IS,Sr. Network Engineer
+2068,"Lajiri,  Jyoti",1.2.210.50,ubuntu18,Static-NonAD,IT/IS,Sr. Network Engineer
+2069,"Semizoglou, Jeremiah  ",1.2.210.51,ubuntu18,Static-NonAD,IT/IS,Sr. Network Engineer
+2070,"South, Joe",1.2.210.52,ubuntu18,Static-NonAD,IT/IS,Sr. Network Engineer
+2071,"Warfield, Sarah",1.2.210.53,ubuntu18,Static-NonAD,IT/IS,Sr. Network Engineer
+2072,"Bramante, Elisa",1.2.210.54,centos7,Static-NonAD,Production       ,Director of Operations
+2073,"Albert, Michael  ",1.2.210.55,centos7,Static-NonAD,Production       ,Production Manager
+2074,"Bozzi, Charles",1.2.210.56,centos7,Static-NonAD,Production       ,Production Manager
+2075,"Butler, Webster  L",1.2.210.57,centos7,Static-NonAD,Production       ,Production Manager
+2076,"Dunn, Amy  ",1.2.210.58,centos7,Static-NonAD,Production       ,Production Manager
+2077,"Gray, Elijiah  ",1.2.210.59,centos7,Static-NonAD,Production       ,Production Manager
+2078,"Hogland, Jonathan ",1.2.210.60,centos7,Static-NonAD,Production       ,Production Manager
+2079,"Immediato, Walter",1.2.210.61,centos7,Static-NonAD,Production       ,Production Manager
+2080,"Liebig, Ketsia",1.2.210.62,centos7,Static-NonAD,Production       ,Production Manager
+2081,"Miller, Brannon",1.2.210.63,centos7,Static-NonAD,Production       ,Production Manager
+2082,"Peterson, Ebonee  ",1.2.210.64,centos7,Static-NonAD,Production       ,Production Manager
+2083,"Spirea, Kelley",1.2.210.65,centos7,Static-NonAD,Production       ,Production Manager
+2084,"Stanley, David ",1.2.210.66,centos7,Static-NonAD,Production       ,Production Manager
+2085,"Sullivan, Kissy ",1.2.210.67,centos7,Static-NonAD,Production       ,Production Manager
+2086,"Wallace, Courtney  E",1.2.210.68,centos7,Static-NonAD,Production       ,Production Manager
+2087,"Adinolfi, Wilson  K",1.2.210.69,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2088,"Alagbe,Trina",1.2.210.70,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2089,"Anderson, Carol ",1.2.210.71,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2090,"Anderson, Linda  ",1.2.210.72,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2091,"Athwal, Sam",1.2.210.73,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2092,"Bachiochi, Linda",1.2.210.74,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2093,"Baczenski, Rachael  ",1.2.210.75,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2094,"Barbara, Thomas",1.2.210.76,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2095,"Barone, Francesco  A",1.2.210.77,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2096,"Barton, Nader",1.2.210.78,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2097,"Beatrice, Courtney ",1.2.210.79,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2098,"Becker, Scott",1.2.210.80,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2099,"Bernstein, Sean",1.2.210.81,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2100,"Biden, Lowan  M",1.2.210.82,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2101,"Billis, Helen",1.2.210.83,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2102,"Brill, Donna",1.2.210.84,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2103,"Bugali, Josephine ",1.2.210.85,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2104,"Carey, Michael  ",1.2.210.86,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2105,"Chace, Beatrice ",1.2.210.87,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2106,"Chan, Lin",1.2.210.88,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2107,"Chang, Donovan  E",1.2.210.89,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2108,"Chivukula, Enola",1.2.210.90,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2109,"Cierpiszewski, Caroline  ",1.2.210.91,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2110,"Clukey, Elijian",1.2.210.92,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2111,"Cockel, James",1.2.210.93,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2112,"Cole, Spencer",1.2.210.94,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2113,"Cornett, Lisa ",1.2.210.95,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2114,"Crimmings,   Jean",1.2.210.96,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2115,"Darson, Jeneya ",1.2.210.97,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2116,"DeGweck,  James",1.2.210.98,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2117,"Desimone, Carl ",1.2.210.99,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2118,"Dickinson, Geoff ",1.2.210.100,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2119,"DiNocco, Lily ",1.2.210.101,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2120,"Dobrin, Denisa  S",1.2.210.102,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2121,"Eaton, Marianne",1.2.210.103,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2122,"Engdahl, Jean",1.2.210.104,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2123,"England, Rex",1.2.210.105,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2124,"Estremera, Miguel",1.2.210.106,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2125,"Evensen, April",1.2.210.107,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2126,"Ferguson, Susan",1.2.210.108,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2127,"Fernandes, Nilson  ",1.2.210.109,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2128,"Ferreira, Violeta",1.2.210.110,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2129,"Fidelia,  Libby",1.2.210.111,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2130,"Garcia, Raul",1.2.210.112,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2131,"Garneau, Hamish",1.2.210.113,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2132,"Gaul, Barbara",1.2.210.114,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2133,"Gentry, Mildred",1.2.210.115,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2134,"Gerke, Melisa",1.2.210.116,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2135,"Gilles, Alex",1.2.210.117,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2136,"Girifalco, Evelyn",1.2.210.118,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2137,"Gold, Shenice  ",1.2.210.119,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2138,"Gonzalez, Cayo",1.2.210.120,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2139,"Gordon, David",1.2.210.121,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2140,"Goyal, Roxana",1.2.210.122,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2141,"Gross, Paula",1.2.210.123,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2142,"Handschiegl, Joanne",1.2.210.124,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2143,"Harrell, Ludwick",1.2.210.125,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2144,"Harrington, Christie ",1.2.210.126,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2145,"Harrison, Kara",1.2.210.127,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2146,"Heitzman, Anthony",1.2.210.128,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2147,"Ivey, Rose ",1.2.210.129,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2148,"Jackson, Maryellen",1.2.210.130,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2149,"Jacobi, Hannah  ",1.2.210.131,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2150,"Jhaveri, Sneha  ",1.2.210.132,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2151,"Johnson, George",1.2.210.133,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2152,"Jung, Judy  ",1.2.210.134,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2153,"Keatts, Kramer ",1.2.210.135,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2154,"Kinsella, Kathleen  ",1.2.210.136,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2155,"Kirill, Alexandra  ",1.2.210.137,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2156,"Knapp, Bradley  J",1.2.210.138,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2157,"Kretschmer, John",1.2.210.139,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2158,"Langton, Enrico",1.2.210.140,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2159,"Leach, Dallas",1.2.210.141,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2160,"LeBel, Jonathan  R",1.2.210.142,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2161,"Linares, Marilyn ",1.2.210.143,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2162,"Lydon, Allison",1.2.210.144,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2163,"Lynch, Lindsay",1.2.210.145,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2164,"MacLennan, Samuel",1.2.210.146,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2165,"Mahoney, Lauren  ",1.2.210.147,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2166,"Mangal, Debbie",1.2.210.148,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2167,"Maurice, Shana",1.2.210.149,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2168,"Mckenna, Sandy",1.2.210.150,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2169,"Meads, Elizabeth",1.2.210.151,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2170,"Medeiros, Jennifer",1.2.210.152,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2171,"Motlagh,  Dawn",1.2.210.153,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2172,"Ndzi, Colombui",1.2.210.154,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2173,"Ndzi, Horia",1.2.210.155,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2174,"Newman, Richard ",1.2.210.156,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2175,"Ngodup, Shari ",1.2.210.157,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2176,"Nguyen, Lei-Ming",1.2.210.158,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2177,"Ohare, Lynn",1.2.210.159,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2178,"Osturnka, Adeel",1.2.210.160,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2179,"Owad, Clinton",1.2.210.161,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2180,"Panjwani, Nina",1.2.210.162,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2181,"Pelech, Emil",1.2.210.163,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2182,"Perry, Shakira",1.2.210.164,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2183,"Peterson, Kayla ",1.2.210.165,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2184,"Pham, Hong",1.2.210.166,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2185,"Pitt, Brad ",1.2.210.167,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2186,"Power, Morissa",1.2.210.168,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2187,"Punjabhi, Louis  ",1.2.210.169,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2188,"Purinton, Janine",1.2.210.170,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2189,"Rarrick, Quinn",1.2.210.171,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2190,"Rhoads, Thomas",1.2.210.172,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2191,"Rivera, Haley  ",1.2.210.173,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2192,"Robinson, Alain  ",1.2.210.174,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2193,"Robinson, Cherly",1.2.210.175,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2194,"Robinson, Elias",1.2.210.176,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2195,"Rose, Ashley  ",1.2.210.177,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2196,"Rossetti, Bruno",1.2.210.178,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2197,"Saar-Beckles, Melinda",1.2.210.179,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2198,"Sadki, Nore  ",1.2.210.180,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2199,"Sander, Kamrin",1.2.210.181,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2200,"Sewkumar, Nori",1.2.210.182,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2201,"Shields, Seffi",1.2.210.183,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2202,"Smith, Sade",1.2.210.184,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2203,"Sparks, Taylor  ",1.2.210.185,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2204,"Squatrito, Kristen",1.2.210.186,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2205,"Stanford,Barbara  M",1.2.210.187,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2206,"Stoica, Rick",1.2.210.188,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2207,"Sullivan, Timothy",1.2.210.189,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2208,"Sutwell, Barbara",1.2.210.190,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2209,"Tavares, Desiree  ",1.2.210.191,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2210,"Theamstern, Sophia",1.2.210.192,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2211,"Tinto, Theresa  ",1.2.210.193,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2212,"Tippett, Jeanette",1.2.210.194,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2213,"Trang, Mei",1.2.210.195,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2214,"Veera, Abdellah ",1.2.210.196,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2215,"Volk, Colleen",1.2.210.197,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2216,"Von Massenbach, Anna",1.2.210.198,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2217,"Wallace, Theresa",1.2.210.199,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2218,"Whittier, Scott",1.2.210.200,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2219,"Wilber, Barry",1.2.211.2,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2220,"Williams, Jacquelyn  ",1.2.211.3,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2221,"Ybarra, Catherine ",1.2.211.4,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2222,"Zima, Colleen",1.2.211.5,ubuntu18,Static-NonAD,Production       ,Production Technician I
+2223,"Akinkuolie, Sarah",1.2.211.6,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2224,"Beak, Kimberly  ",1.2.211.7,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2225,"Blount, Dianna",1.2.211.8,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2226,"Bondwell, Betsy",1.2.211.9,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2227,"Buccheri, Joseph  ",1.2.211.10,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2228,"Burke, Joelle",1.2.211.11,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2229,"Burkett, Benjamin ",1.2.211.12,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2230,"Cloninger, Jennifer",1.2.211.13,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2231,"Close, Phil",1.2.211.14,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2232,"Davis, Daniel",1.2.211.15,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2233,"Demita, Carla",1.2.211.16,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2234,"Erilus, Angela",1.2.211.17,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2235,"Faller, Megan ",1.2.211.18,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2236,"Fancett, Nicole",1.2.211.19,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2237,"Fitzpatrick, Michael  J",1.2.211.20,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2238,"Foreman, Tanya",1.2.211.21,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2239,"Gonzalez, Juan",1.2.211.22,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2240,"Good, Susan",1.2.211.23,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2241,"Gosciminski, Phylicia  ",1.2.211.24,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2242,"Hankard, Earnest",1.2.211.25,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2243,"Hendrickson, Trina",1.2.211.26,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2244,"Homberger, Adrienne  J",1.2.211.27,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2245,"Hunts, Julissa",1.2.211.28,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2246,"Hutter, Rosalie",1.2.211.29,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2247,"Huynh, Ming",1.2.211.30,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2248,"Jeannite, Tayana",1.2.211.31,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2249,"Johnston, Yen",1.2.211.32,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2250,"Langford, Lindsey",1.2.211.33,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2251,"Latif, Mohammed",1.2.211.34,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2252,"Linden, Mathew",1.2.211.35,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2253,"Lundy, Susan",1.2.211.36,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2254,"Lunquist, Lisa",1.2.211.37,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2255,"Manchester, Robyn",1.2.211.38,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2256,"Mancuso, Karen",1.2.211.39,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2257,"McCarthy, Brigit",1.2.211.40,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2258,"Miller, Ned",1.2.211.41,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2259,"Monkfish, Erasumus",1.2.211.42,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2260,"Monterro, Luisa",1.2.211.43,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2261,"Moran, Patrick",1.2.211.44,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2262,"Moumanil, Maliki ",1.2.211.45,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2263,"Nowlan, Kristie",1.2.211.46,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2264,"Oliver, Brooke ",1.2.211.47,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2265,"Pelletier, Ermine",1.2.211.48,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2266,"Peters, Lauren",1.2.211.49,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2267,"Petingill, Shana  ",1.2.211.50,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2268,"Roberson, May",1.2.211.51,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2269,"Robertson, Peter",1.2.211.52,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2270,"Sahoo, Adil",1.2.211.53,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2271,"Sloan, Constance",1.2.211.54,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2272,"Smith, Joe",1.2.211.55,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2273,"Tejeda, Lenora ",1.2.211.56,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2274,"Thibaud, Kenneth",1.2.211.57,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2275,"Trzeciak, Cybil",1.2.211.58,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2276,"Walker, Roger",1.2.211.59,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2277,"Winthrop, Jordan  ",1.2.211.60,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2278,"Wolk, Hang  T",1.2.211.61,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2279,"Woodson, Jason",1.2.211.62,ubuntu18,Static-NonAD,Production       ,Production Technician II
+2280,"Buck, Edward",1.2.211.63,centos7,Static-NonAD,Sales,Area Sales Manager
+2281,"Bunbury, Jessica",1.2.211.64,centos7,Static-NonAD,Sales,Area Sales Manager
+2282,"Carter, Michelle ",1.2.211.65,centos7,Static-NonAD,Sales,Area Sales Manager
+2283,"Costa, Latia",1.2.211.66,centos7,Static-NonAD,Sales,Area Sales Manager
+2284,"Dietrich, Jenna  ",1.2.211.67,centos7,Static-NonAD,Sales,Area Sales Manager
+2285,"Digitale, Alfred",1.2.211.68,centos7,Static-NonAD,Sales,Area Sales Manager
+2286,"Fraval, Maruk ",1.2.211.69,centos7,Static-NonAD,Sales,Area Sales Manager
+2287,"Friedman, Gerry",1.2.211.70,centos7,Static-NonAD,Sales,Area Sales Manager
+2288,"Gill, Whitney  ",1.2.211.71,centos7,Static-NonAD,Sales,Area Sales Manager
+2289,"Givens, Myriam",1.2.211.72,centos7,Static-NonAD,Sales,Area Sales Manager
+2290,"Gonzales, Ricardo",1.2.211.73,centos7,Static-NonAD,Sales,Area Sales Manager
+2291,"Guilianno, Mike",1.2.211.74,centos7,Static-NonAD,Sales,Area Sales Manager
+2292,Jeremy Prater,1.2.211.75,centos7,Static-NonAD,Sales,Area Sales Manager
+2293,"Khemmich, Bartholemew",1.2.211.76,centos7,Static-NonAD,Sales,Area Sales Manager
+2294,"Leruth, Giovanni",1.2.211.77,centos7,Static-NonAD,Sales,Area Sales Manager
+2295,"Martins, Joseph",1.2.211.78,centos7,Static-NonAD,Sales,Area Sales Manager
+2296,"McKinzie, Jac",1.2.211.79,centos7,Static-NonAD,Sales,Area Sales Manager
+2297,"Mullaney, Howard",1.2.211.80,centos7,Static-NonAD,Sales,Area Sales Manager
+2298,"Nguyen, Dheepa",1.2.211.81,centos7,Static-NonAD,Sales,Area Sales Manager
+2299,"Onque, Jasmine",1.2.211.82,centos7,Static-NonAD,Sales,Area Sales Manager
+2300,"Ozark, Travis",1.2.211.83,centos7,Static-NonAD,Sales,Area Sales Manager
+2301,"Potts, Xana",1.2.211.84,centos7,Static-NonAD,Sales,Area Sales Manager
+2302,"Riordan, Michael",1.2.211.85,centos7,Static-NonAD,Sales,Area Sales Manager
+2303,"Strong, Caitrin",1.2.211.86,centos7,Static-NonAD,Sales,Area Sales Manager
+2304,"Terry, Sharlene ",1.2.211.87,centos7,Static-NonAD,Sales,Area Sales Manager
+2305,"Valentin,Jackie",1.2.211.88,centos7,Static-NonAD,Sales,Area Sales Manager
+2306,"Villanueva, Noah",1.2.211.89,centos7,Static-NonAD,Sales,Area Sales Manager
+2307,"Houlihan, Debra",1.2.211.90,centos7,Static-NonAD,Sales,Director of Sales
+2308,"Daneault, Lynn",1.2.211.91,centos7,Static-NonAD,Sales,Sales Manager
+2309,"Kampew, Donysha",1.2.211.92,centos7,Static-NonAD,Sales,Sales Manager
+2310,"Smith, John",1.2.211.93,centos7,Static-NonAD,Sales,Sales Manager
+2311,"Andreola, Colby",1.2.211.94,ubuntu18,Static-NonAD,Software Engineering,Software Engineer
+2312,"Carabbio, Judith",1.2.211.95,ubuntu18,Static-NonAD,Software Engineering,Software Engineer
+2313,"Del Bosque, Keyla",1.2.211.96,ubuntu18,Static-NonAD,Software Engineering,Software Engineer
+2314,"Exantus, Susan",1.2.211.97,ubuntu18,Static-NonAD,Software Engineering,Software Engineer
+2315,"Martin, Sandra",1.2.211.98,ubuntu18,Static-NonAD,Software Engineering,Software Engineer
+2316,"Patronick, Luke",1.2.211.99,ubuntu18,Static-NonAD,Software Engineering,Software Engineer
+2317,"Saada, Adell",1.2.211.100,ubuntu18,Static-NonAD,Software Engineering,Software Engineer
+2318,"Szabo, Andrew",1.2.211.101,ubuntu18,Static-NonAD,Software Engineering,Software Engineer
+2319,"True, Edward",1.2.211.102,ubuntu18,Static-NonAD,Software Engineering,Software Engineer
+2320,"Sweetwater, Alex",1.2.211.103,centos7,Static-NonAD,Software Engineering,Software Engineering Manager
+2321,"Champaigne, Brian",1.2.211.104,centos7,Static-NonAD,IT/IS,BI Director
+2322,"Le, Binh",1.2.211.105,ubuntu18,Static-NonAD,IT/IS,Senior BI Developer
+2323,"Rachael, Maggie",1.2.211.106,ubuntu18,Static-NonAD,IT/IS,BI Developer
+2324,"Roper, Katie",1.2.211.107,ubuntu18,Static-NonAD,IT/IS,Data Architect
+2325,"Navathe, Kurt",1.2.211.108,ubuntu18,Static-NonAD,IT/IS,Senior BI Developer
+2326,"Wang, Charlie",1.2.211.109,ubuntu18,Static-NonAD,IT/IS,Senior BI Developer
+2327,"Smith, Jason",1.2.211.110,ubuntu18,Static-NonAD,IT/IS,BI Developer
+2328,"Westinghouse, Matthew",1.2.211.111,ubuntu18,Static-NonAD,IT/IS,BI Developer
+2329,"Hubert, Robert",1.2.211.112,ubuntu18,Static-NonAD,IT/IS,BI Developer
