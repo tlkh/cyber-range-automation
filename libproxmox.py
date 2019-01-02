@@ -5,8 +5,8 @@ import csv
 
 class Proxmox(object):
 
-    def __init__(self):
-        self.salt = "iTrst"
+    def __init__(self, salt="nosalt"):
+        self.salt = salt
 
     def run_cmd(self, bash_command):
         print("[INFO  ] Running:", bash_command)
@@ -16,13 +16,6 @@ class Proxmox(object):
             process.wait()
             output, error = process.communicate()
         return output
-
-    def deploy_from_csv(self, file_path):
-        with open(file_path, "rb") as file:
-            csvfile = csv.reader(file)
-            for row in csvfile[1:]:
-                print("[INFO  ]", row)
-                self.deploy_vm(row)
 
     def deploy_vm(self, row):
         template_id, target_id, user_displayname = row[0], row[1], row[2]
@@ -38,6 +31,9 @@ class Proxmox(object):
 
         self.clone_vm(template_id, target_id, target_name)
         self.set_ci(target_id, user_displayname, ci_ip_addr, windows_vm=windows_vm)
+
+        print("[INFO  ] Deployed:", target_id)
+        return target_id
 
     def del_vm(self, target_id):
         target_id = str(int(target_id))
