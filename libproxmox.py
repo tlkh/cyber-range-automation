@@ -34,7 +34,7 @@ class Proxmox(object):
         command = "qm stop "+target_id
         self.run_cmd(command)
     
-    def clone_vm(self, template_id, target_id, full=True, target_name=None):
+    def clone_vm(self, template_id, target_id, target_name=None, full=False):
         template_id = str(int(template_id))
         target_id = str(int(target_id))
         if target_name is not None:
@@ -71,7 +71,7 @@ class Proxmox(object):
         commands.append("qm set "+target_vm+" --citype "+citype)
         commands.append("qm set "+target_vm+" --ciuser "+username)
         commands.append("qm set "+target_vm+" --cipassword "+password)
-        commands.append("qm set "+target_vm+" --ipconfig0 ip= "+ip_addr+"/16")
+        commands.append("qm set "+target_vm+" --ipconfig0 ip="+ip_addr+"/16")
 
         for command in commands:
             self.run_cmd(command)
