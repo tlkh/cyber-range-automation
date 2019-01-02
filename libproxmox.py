@@ -22,7 +22,9 @@ class Proxmox(object):
         ci_ip_addr, vm_type = row[3], row[4]
         vm_type = str(vm_type)
 
-        target_name = str(user_displayname).replace(" ", "").replace(",", "")+vm_type
+        target_name = str(user_displayname).replace(" ", "").split(",")
+        target_name = target_name[0] + target_name[1].upper()
+        target_name = target_name + vm_type
 
         if "windows" in vm_type.lower():
             windows_vm = True
