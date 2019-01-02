@@ -9,11 +9,17 @@ print("[INFO  ] Deploying from:", CSV_DIR)
 
 deployed = []
 
+row_count = 0
+
 with open(CSV_DIR, "r") as file:
     csvfile = csv.reader(file)
     for row in csvfile:
-        print("[DEBUG ]:", row)
-        deployed.append(proxmox.deploy_vm(row))
+        if row_count==0:
+            pass
+        else:
+            print("[DEBUG ]:", row)
+            deployed.append(proxmox.deploy_vm(row))
+        row_count += 1
 
 print("[INFO  ] VMs deployed:", deployed)
 
