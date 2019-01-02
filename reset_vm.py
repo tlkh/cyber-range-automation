@@ -15,6 +15,7 @@ row_count = 0
 
 with open(CSV_DIR, "r") as file:
     csvfile = csv.reader(file)
+    next(csvfile, None)  # skip the headers
     for row in csvfile:
         print("[DEBUG ]:", row)
         vm_id = row[0]

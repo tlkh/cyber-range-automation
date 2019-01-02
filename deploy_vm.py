@@ -15,7 +15,7 @@ templates = {
     "ubuntu18": "9001"
 }
 
-print("[INFO  ] Begining clone process")
+print("[INFO  ] Beginning clone process")
 
 with open(CSV_DIR, "r") as file:
     csvfile = csv.reader(file)
@@ -37,7 +37,7 @@ with open(CSV_DIR, "r") as file:
         print("[INFO  ] Cloned:", vm_id)
         time.sleep(1)
 
-print("[INFO  ] Begining cloud-init process")
+print("[INFO  ] Beginning cloud-init process")
 
 deployed = []
 
