@@ -61,7 +61,8 @@ class Proxmox(object):
         else:
             citype = "nocloud"
 
-        username = display_name.lower().replace(" ", "").replace(",", "")
+        username = display_name.lower().replace(" ", "").split(",")
+        username = username[0]+"-"+username[1]
 
         h = hashlib.new('ripemd160')
         h.update(bytes(display_name+self.salt, encoding="utf8"))

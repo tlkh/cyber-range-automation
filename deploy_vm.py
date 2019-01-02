@@ -27,7 +27,7 @@ with open(CSV_DIR, "r") as file:
         ci_ip_addr, vm_os, vm_type = row[2], row[3], row[4]
 
         target_name = str(user_displayname).replace(" ", "").split(",")
-        target_name = target_name[0] + target_name[1].upper()
+        target_name = target_name[1] + target_name[0].upper()
         target_name = target_name+"-"+vm_os+"-"+vm_type
 
         template_id = templates[vm_os]
