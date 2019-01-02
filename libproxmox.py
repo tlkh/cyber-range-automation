@@ -15,8 +15,8 @@ class Proxmox(object):
                 bash_command.split(), stdout=out, stderr=err)
             process.wait()
             output, error = process.communicate()
-            print("[INFO  ] Output:", str(output))
-            print("[ERROR ] Error:", str(error))
+            if error is not None:
+                print("[ERROR ] Error:", str(error))
         return output
 
     def del_vm(self, target_id):
@@ -34,7 +34,7 @@ class Proxmox(object):
         command = "qm stop "+target_id
         self.run_cmd(command)
     
-    def clone_vm(self, template_id, target_id, target_name=None):
+    def clone_vm(self, template_id, target_id, full=True, target_name=None):
         template_id = str(int(template_id))
         target_id = str(int(target_id))
         if target_name is not None:
@@ -45,6 +45,8 @@ class Proxmox(object):
         command = "qm clone "+template_id+" "+target_id+" --name "+target_name
         if self.target_node is not None:
             command = command + " --target " + self.target_node
+        if full==True:
+            command = command + " --full true"
         self.run_cmd(command)
 
     def set_ci(self, target_vm, display_name, ip_addr, windows_vm=False):

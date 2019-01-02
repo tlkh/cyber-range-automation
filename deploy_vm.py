@@ -12,6 +12,8 @@ deployed = []
 
 row_count = 0
 
+print("[INFO  ] Begining clone process")
+
 with open(CSV_DIR, "r") as file:
     csvfile = csv.reader(file)
     for row in csvfile:
@@ -43,6 +45,8 @@ with open(CSV_DIR, "r") as file:
 
 row_count = 0
 
+print("[INFO  ] Begining cloud-init process")
+
 with open(CSV_DIR, "r") as file:
     csvfile = csv.reader(file)
     for row in csvfile:
@@ -59,6 +63,8 @@ with open(CSV_DIR, "r") as file:
         row_count += 1
 
 print("[INFO  ] VMs deployed:", deployed)
+
+print("[INFO  ] Starting all VMs deployed")
 
 for vm_id in deployed:
     proxmox.start_vm(vm_id)
