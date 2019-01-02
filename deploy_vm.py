@@ -1,3 +1,4 @@
+import time
 import csv
 
 from libproxmox import Proxmox
@@ -31,12 +32,11 @@ with open(CSV_DIR, "r") as file:
             else:
                 windows_vm = False
 
-            self.clone_vm(template_id, target_id, target_name)
+            proxmox.clone_vm(template_id, target_id, target_name)
 
             time.sleep(1)
 
             print("[INFO  ] Cloned:", target_id)
-            deployed.append(target_id)
 
         time.sleep(1)
         row_count += 1
@@ -53,7 +53,8 @@ with open(CSV_DIR, "r") as file:
             template_id, target_id, user_displayname = row[0], row[1], row[2]
             ci_ip_addr, vm_type = row[3], row[4]
             vm_type = str(vm_type)
-            self.set_ci(target_id, user_displayname,ci_ip_addr, windows_vm=windows_vm)
+            proxmox.set_ci(target_id, user_displayname,ci_ip_addr, windows_vm=windows_vm)
+            deployed.append(target_id)
         time.sleep(1)
         row_count += 1
 
