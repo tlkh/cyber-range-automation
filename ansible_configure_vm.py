@@ -8,6 +8,8 @@ def run_cmd(bash_command):
             bash_command.split(), stdout=out, stderr=err)
         process.wait()
         output, error = process.communicate()
+        if output is not None:
+            print("[DEBUG ] Ouput:", str(output))
         if error is not None:
             print("[ERROR ] Error:", str(error))
     return output
